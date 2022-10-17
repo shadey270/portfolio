@@ -7,7 +7,7 @@ const Contact = () => {
         <div className='container mx-auto'>
           <div className='flex flex-col items-center text-center'>
             <h2 className='section-title before:content-contact relative before:absolute before:opacity-40 before:-top-7 before:-left-40 before:hidden before:lg:block'> contact me</h2>
-            <p className='subtitle'>Lorem ipsum dolor sit amet consectetur adipisicing illo ad labore dolor elit.Lorem ipsum dolor sit amet consectetur adipisicing illo ad labore dolor elit.Lorem ipsum dolor sit amet consectetur adipisicing illo ad labore dolor elit.Lorem ipsum dolor sit amet consectetur adipisicing illo ad labore dolor elit.</p>
+            <p className='subtitle'>Get in Touch</p>
           </div>
           <div className='flex flex-col lg:gap-x-8 lg:flex-row'>
             <div className='flex flex-1 flex-col items-start space-y-8 mb-12 lg:mb-0 lg:pt-2'>
@@ -26,11 +26,11 @@ const Contact = () => {
             </div>
             <form className='space-y-8 w-full max-w-[780px]'>
               <div className='flex gap-8'>
-                <input className='input' placeholder=' Your name' type='text' />
-                <input className='input' placeholder=' Your email' type='email' />
+                <input className='input text-white' placeholder=' Your name' type='text' />
+                <input className='input text-white' placeholder=' Your email' type='email' />
               </div>
-              <input className='input' type='text' placeholder='Subject' />
-              <textarea className='textarea' placeholder='Your messsage' ></textarea>
+              <input className='input text-white' type='text' placeholder='Subject' />
+              <textarea className='textarea text-white' placeholder='Your messsage' ></textarea>
               <button className='btn btn-lg bg-accent hover:bg-accent-hover'> Send Message</button>
             </form>
           </div>

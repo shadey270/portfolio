@@ -15,10 +15,10 @@ const Footer = () => {
                         </a>
                     })}
                 </div>
-                <div className=''>
-                  <img src={Logo} />
+                <div className='text-white text-2xl text-bold'>
+                 <span>Shade Oduwaye</span>
                 </div>
-                <p>&copy; 2022 Ogad Technological. All rights reserved.</p>
+                <p className='text-primary'>&copy; 2022 Shade Oduwaye. All rights reserved.</p>
             </div>
         </div>
     </footer>

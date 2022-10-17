@@ -12,12 +12,7 @@ import {
   FiMapPin,
 } from 'react-icons/fi';
 
-// companies icons
-import FreelancerBrandIcon from './assets/img/brands/freelancer.png';
-import UpworkBrandIcon from './assets/img/brands/upwork.png';
-import FiverBrandIcon from './assets/img/brands/fiverr.png';
-import BehanceBrandIcon from './assets/img/brands/behance.png';
-import DribbbleBrandIcon from './assets/img/brands/dribbble.png';
+
 
 // projects images
 import Project1 from './assets/img/projects/p1.webp';
@@ -33,14 +28,9 @@ import SkillImg2 from './assets/img/skills/css3.png';
 import SkillImg3 from './assets/img/skills/js.png';
 import SkillImg4 from './assets/img/skills/reactjs.png';
 import SkillImg5 from './assets/img/skills/nextjs.png';
-import SkillImg6 from './assets/img/skills/nodejs.png';
 import SkillImg7 from './assets/img/skills/git.png';
 import SkillImg8 from './assets/img/skills/figma.png';
 
-// testimonial images
-import TestiImage1 from './assets/img/testimonials/testimonial-1.webp';
-import TestiImage2 from './assets/img/testimonials/testimonial-2.webp';
-import TestiImage3 from './assets/img/testimonials/testimonial-3.webp';
 
 // navigation
 export const navigation = [
@@ -59,10 +49,6 @@ export const navigation = [
   {
     name: 'services',
     href: 'services',
-  },
-  {
-    name: 'testimonials',
-    href: 'testimonials',
   },
   {
     name: 'contact',
@@ -90,29 +76,7 @@ export const social = [
   },
 ];
 
-// companies
-export const brands = [
-  {
-    img: FreelancerBrandIcon,
-    href: '',
-  },
-  {
-    img: UpworkBrandIcon,
-    href: '',
-  },
-  {
-    img: FiverBrandIcon,
-    href: '',
-  },
-  {
-    img: BehanceBrandIcon,
-    href: '',
-  },
-  {
-    img: DribbbleBrandIcon,
-    href: '',
-  },
-];
+
 
 // projects
 export const projectsData = [
@@ -188,9 +152,6 @@ export const skills = [
     image: SkillImg5,
   },
   {
-    image: SkillImg6,
-  },
-  {
     image: SkillImg7,
   },
   {
@@ -204,52 +165,29 @@ export const services = [
     icon: <FiLayout />,
     name: 'Web Design',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio perferendis volm quibusdam ullam qui dolore.',
+      'Designing sophisticated websites with the use of HTML, CSS, and Bootstrap.',
   },
   {
     icon: <FiSettings />,
     name: 'Web Development',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio perferendis volm quibusdam ullam qui dolore.',
+      'This entails developing amazing interfaces using javascript libaries. We achieve this for clients',
   },
   {
     icon: <FiPenTool />,
     name: 'Branding',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio perferendis volm quibusdam ullam qui dolore.',
+      'We also help companies brand their products through their websites.',
   },
   {
     icon: <FiTag />,
     name: 'SEO',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio perferendis volm quibusdam ullam qui dolore.',
+      'We ensure that our works are optimized to aid marketing and recognition of the clients company.',
   },
 ];
 
-// testimonials
-export const testimonials = [
-  {
-    authorImg: TestiImage1,
-    authorText:
-      'Love the simplicity of the service and the prompt customer support. We can’t imagine working without it.',
-    authorName: 'Olivia Doe',
-    authorPosition: 'Head of Design, Google',
-  },
-  {
-    authorImg: TestiImage2,
-    authorText:
-      'Love the simplicity of the service and the prompt customer support. We can’t imagine working without it.',
-    authorName: 'Olivia Doe',
-    authorPosition: 'Head of Design, Google',
-  },
-  {
-    authorImg: TestiImage3,
-    authorText:
-      'Love the simplicity of the service and the prompt customer support. We can’t imagine working without it.',
-    authorName: 'Olivia Doe',
-    authorPosition: 'Head of Design, Google',
-  },
-];
+
 
 // contact
 export const contact = [
@@ -257,12 +195,12 @@ export const contact = [
     icon: <FiMail />,
     title: 'Have a question?',
     subtitle: 'I am here to help you.',
-    description: 'Email me at hello@youremail.com',
+    description: 'Email me at oladeleshadey@gmail.com',
   },
   {
     icon: <FiMapPin />,
     title: 'Current Location',
-    subtitle: 'Bucharest, Romania',
+    subtitle: 'Ondo State, Akure',
     description: 'Serving clients worldwide',
   },
 ];

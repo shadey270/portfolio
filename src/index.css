@@ -12,13 +12,13 @@
   h4,
   h5,
   h6 {
-    @apply text-white font-primary;
+    @apply text-black font-primary;
   }
   .section {
     @apply py-12 lg:py-32;
   }
   .section-title {
-    @apply text-3xl lg:text-4xl font-medium lg:font-extrabold mb-5;
+    @apply text-2xl lg:text-4xl font-medium lg:font-extrabold mb-5;
   }
   .subtitle {
     @apply text-base text-paragraph mb-16 lg:mb-24 max-w-[520px];
