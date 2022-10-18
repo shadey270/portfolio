@@ -6,7 +6,7 @@ function ReactTyping() {
   return (
     <>
         <ReactTypingEffect 
-        text={["Front-End Skills: HTML, CSS, Bootstrap, Javascript"]}
+        text={["Front-End Skills: HTML, CSS, Bootstrap, Javascript, React js, next js, Typescript, Tailwind css, material UI."]}
       />
     </>
   )

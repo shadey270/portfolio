@@ -14,8 +14,8 @@ const Hero = () => {
       <div className='container col-span-2 lg:ml-[150px]'>
       <motion.div 
            animate={{
-            x: 538,
-            y: 538,
+            x: 450,
+            y: 450,
             scale: 1.2,
             rotate: 180,
           }}
@@ -29,7 +29,7 @@ const Hero = () => {
             <h1 className='text-4xl leading-[34px] md:text-5xl md:leading-tight lg:text-5xl lg:leading-[1.2] font-bold md:tracking-[-2px] text-center lg:text-left'>
               I Build & Design <br /> Web Interfaces.
             </h1>
-            <p className='pt-4 pb-8 md:pt-6 md:pb-12 text-lg text-center text-sm lg:text-left'>
+            <p className='pt-4 pb-8 md:pt-6 md:pb-12 text-center text-sm lg:text-left'>
             Detail-oriented professional with excellent communication, interpersonal and creative thinking skills.
             </p>
             <div className='flex items-center justify-center lg:hidden  '>
@@ -46,8 +46,8 @@ const Hero = () => {
       <img src={WomanImg}  alt=''className='lg:mt-[100px] hidden lg:block' />
       <motion.div 
            animate={{
-            x: -538,
-            y: -538,
+            x: -500,
+            y: -500,
             scale: 1.2,
             rotate: 180,
           }}

@@ -7,7 +7,7 @@ const About = () => {
     <section id='about' className='section bg-secondary text-white'>
         <div className='container mx-auto'>
             <div className='flex flex-col xl:flex-row gap-24'>
-                <div className='object-cover  lg:w-[566px] md:mx-auto lg:mx-0 rounded-2xl'>
+                <div className='object-cover  lg:w-[700px] md:mx-auto lg:text-2xl lg:mx-0 rounded-2xl'>
                     <ReactTyping />
                 </div>
                 <div className='flex flex-col items-center text-center lg:items-start lg:text-left'>
